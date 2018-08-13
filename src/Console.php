@@ -15,6 +15,7 @@ class Console
     public const MODE_DEFAULT    = 0;
     public const MODE_BRIGHT     = 1;
     public const MODE_DIM        = 2;
+    public const MODE_ITALIC     = 3;
     public const MODE_UNDERSCORE = 4;
     public const MODE_BLINK      = 5;
     public const MODE_REVERSE    = 7;

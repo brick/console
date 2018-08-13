@@ -77,6 +77,10 @@ $console->setTextMode(Console::MODE_BLINK);
 $console->println('Blink');
 $console->setTextMode(Console::MODE_DEFAULT);
 
+$console->setTextMode(Console::MODE_ITALIC);
+$console->println('Italic');
+$console->setTextMode(Console::MODE_DEFAULT);
+
 $console->setTextMode(Console::MODE_REVERSE);
 $console->println('Reverse');
 $console->setTextMode(Console::MODE_DEFAULT);
