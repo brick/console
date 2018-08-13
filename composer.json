@@ -1,0 +1,29 @@
+{
+  "name": "brick/console",
+  "description": "A CLI library for PHP",
+  "type": "library",
+  "keywords": [
+    "Brick",
+    "Console",
+    "Command line",
+    "CLI"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.*",
+    "php-coveralls/php-coveralls": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Brick\\Console\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Brick\\Console\\Tests\\": "tests/"
+    }
+  }
+}
