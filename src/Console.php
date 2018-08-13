@@ -23,14 +23,14 @@ class Console
     /**
      * The available text/background colors.
      */
-    public const COLOR_BLACK      = 0;
-    public const COLOR_RED        = 1;
-    public const COLOR_GREEN      = 2;
-    public const COLOR_YELLOW     = 3;
-    public const COLOR_COLOR_BLUE = 4;
-    public const COLOR_MAGENTA    = 5;
-    public const COLOR_CYAN       = 6;
-    public const COLOR_WHITE      = 7;
+    public const COLOR_BLACK   = 0;
+    public const COLOR_RED     = 1;
+    public const COLOR_GREEN   = 2;
+    public const COLOR_YELLOW  = 3;
+    public const COLOR_BLUE    = 4;
+    public const COLOR_MAGENTA = 5;
+    public const COLOR_CYAN    = 6;
+    public const COLOR_WHITE   = 7;
 
     /**
      * @var bool

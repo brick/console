@@ -23,7 +23,7 @@ $console->println('Green on black');
 $console->setTextColor(Console::COLOR_YELLOW);
 $console->println('Yellow on black');
 
-$console->setTextColor(Console::COLOR_COLOR_BLUE);
+$console->setTextColor(Console::COLOR_BLUE);
 $console->println('Blue on black');
 
 $console->setTextColor(Console::COLOR_MAGENTA);
@@ -45,7 +45,7 @@ $console->println('White on green');
 $console->setBackgroundColor(Console::COLOR_YELLOW);
 $console->println('White on yellow');
 
-$console->setBackgroundColor(Console::COLOR_COLOR_BLUE);
+$console->setBackgroundColor(Console::COLOR_BLUE);
 $console->println('White on blue');
 
 $console->setBackgroundColor(Console::COLOR_MAGENTA);
