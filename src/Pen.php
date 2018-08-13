@@ -18,7 +18,7 @@ class Pen
      */
     public function bold() : Pen
     {
-        $this->attributes[] = Console::MODE_BRIGHT;
+        $this->attributes[] = Console::MODE_BOLD;
 
         return $this;
     }
@@ -28,7 +28,7 @@ class Pen
      */
     public function halfBright() : Pen
     {
-        $this->attributes[] = Console::MODE_DIM;
+        $this->attributes[] = Console::MODE_HALF_BRIGHT;
 
         return $this;
     }

@@ -12,14 +12,14 @@ class Console
     /**
      * The available text modes.
      */
-    public const MODE_DEFAULT    = 0;
-    public const MODE_BRIGHT     = 1;
-    public const MODE_DIM        = 2;
-    public const MODE_ITALIC     = 3;
-    public const MODE_UNDERSCORE = 4;
-    public const MODE_BLINK      = 5;
-    public const MODE_REVERSE    = 7;
-    public const MODE_HIDDEN     = 8;
+    public const MODE_DEFAULT     = 0;
+    public const MODE_BOLD        = 1;
+    public const MODE_HALF_BRIGHT = 2;
+    public const MODE_ITALIC      = 3;
+    public const MODE_UNDERSCORE  = 4;
+    public const MODE_BLINK       = 5;
+    public const MODE_REVERSE     = 7;
+    public const MODE_HIDDEN      = 8;
 
     /**
      * The available text/background colors.

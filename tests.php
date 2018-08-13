@@ -61,11 +61,11 @@ $console->println('Black on white');
 $console->setTextMode(Console::MODE_DEFAULT);
 $console->println('Back to default');
 
-$console->setTextMode(Console::MODE_BRIGHT);
+$console->setTextMode(Console::MODE_BOLD);
 $console->println('Bright');
 $console->setTextMode(Console::MODE_DEFAULT);
 
-$console->setTextMode(Console::MODE_DIM);
+$console->setTextMode(Console::MODE_HALF_BRIGHT);
 $console->println('Dim');
 $console->setTextMode(Console::MODE_DEFAULT);
 
