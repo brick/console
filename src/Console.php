@@ -90,9 +90,8 @@ class Console
     /**
      * Enables line wrapping.
      *
-     * If run outside a terminal, this method throws an exception.
-     *
      * Text wraps to next line if longer than the length of the display area.
+     * If run outside a terminal, this method throws an exception.
      *
      * @return void
      */
