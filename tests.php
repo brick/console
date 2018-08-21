@@ -171,4 +171,13 @@ $console->moveCursorUp(10);
 $console->eraseDown();
 $console->restoreCursorPosition();
 
+echo 'Showing/hiding cursor... ';
+for ($i = 0; $i < 10; $i++) {
+    $console->hideCursor();
+    usleep(100000);
+    $console->showCursor();
+    usleep(100000);
+}
+echo "\n";
+
 echo "End of tests.\n";

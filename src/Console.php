@@ -230,6 +230,32 @@ class Console
     }
 
     /**
+     * Shows the cursor.
+     *
+     * If run outside a terminal, this method throws an exception.
+     *
+     * @return void
+     */
+    public function showCursor() : void
+    {
+        $this->checkTerminal(__FUNCTION__);
+        $this->writeSequence('[?25h');
+    }
+
+    /**
+     * Hides the cursor.
+     *
+     * If run outside a terminal, this method throws an exception.
+     *
+     * @return void
+     */
+    public function hideCursor() : void
+    {
+        $this->checkTerminal(__FUNCTION__);
+        $this->writeSequence('[?25l');
+    }
+
+    /**
      * Erases from the current cursor position to the end of the current line.
      *
      * If run outside a terminal, this method throws an exception.
