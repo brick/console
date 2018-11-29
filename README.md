@@ -32,9 +32,7 @@ for a list of changes introduced by each further `0.x.0` version.
 Installation
 ------------
 
-This library is installable via [Composer](https://getcomposer.org/).
-
-Just run:
+This library is installable via [Composer](https://getcomposer.org/):
 
 ```bash
 composer require brick/console
